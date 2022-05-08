@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -871,7 +871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512478596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.33, y: 2.1, z: -5.68}
+  m_LocalPosition: {x: -11.41, y: 2.1, z: -6.49}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1440,8 +1440,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.99999976
-  m_Center: {x: -1.6600751e-14, y: -0.58408695, z: -2.5971097e-14}
+  m_Radius: 1.2703986
+  m_Center: {x: -3.4076256e-15, y: -0.9272742, z: -1.5837248e-16}
 --- !u!64 &828726062
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1467,8 +1467,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.99999976
-  m_Center: {x: -1.6600751e-14, y: -0.58408695, z: -2.5971097e-14}
+  m_Radius: 1.0544267
+  m_Center: {x: 3.5200995e-15, y: -0.65316486, z: -1.1737211e-15}
 --- !u!64 &828726064
 MeshCollider:
   m_ObjectHideFlags: 0

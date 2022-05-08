@@ -15,6 +15,7 @@ public class Goal : MonoBehaviour
     public Text GameOver;
     public GameObject NextButton;
 
+
     
     //public LoadNextScene LoadNextScene;
 
@@ -47,6 +48,7 @@ public class Goal : MonoBehaviour
                 //WinScreen.Setup();
                 //StartCoroutine(Waiter(other));
             }else{
+                
                 GameOverScreen.Setup();
             }
         }
