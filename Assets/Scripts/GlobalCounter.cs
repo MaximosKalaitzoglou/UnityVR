@@ -6,13 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class GlobalCounter : MonoBehaviour
 {
-
+    //global counter used for counting how many balls each level has
+    // so that the player has to put every ball in the right hole to ultimately win
     public static int Counter{get; set;}
+    //one ball levels
     private string[] oneGoalScenes = { "Tutorial", "Level1", "Level5" };
+    //2 ball levels
     private string[] twoGoalScenes = { "Level2", "Level3" };
+    //3 ball levels
     private string[] threeGoalScenes = { "Level4"};
 
     public void Setup(){
+        //initialize global counter based on level 
         Scene scene = SceneManager.GetActiveScene();
        
 
